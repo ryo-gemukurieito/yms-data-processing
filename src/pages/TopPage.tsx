@@ -69,6 +69,7 @@ const TopPage: React.FC = () => {
                 updatedData[index].社員番号 = value;
                 setData(updatedData);
               }}
+              selectedCategory={selectedCategory} // ラジオボタンで選択されたカテゴリを渡す
             />
           </>
         ) : (
